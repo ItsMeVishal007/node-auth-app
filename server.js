@@ -105,6 +105,8 @@ const server = http.createServer((req, res) => {
 		} else {
 			res.end(signup);
 		}
+
+		
 	}else{
 		res.end(Home)
 	}
